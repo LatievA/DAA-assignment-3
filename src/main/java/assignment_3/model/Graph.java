@@ -51,18 +51,6 @@ public class Graph {
         return adjacencyList.getOrDefault(vertex, Collections.emptyList());
     }
 
-    public int getVertexCount() {
-        return adjacencyList.size();
-    }
-
-    public int getEdgeCount() {
-        return allEdges.size();
-    }
-
-    public boolean isEmpty() {
-        return adjacencyList.isEmpty();
-    }
-
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder("Graph:\n");
