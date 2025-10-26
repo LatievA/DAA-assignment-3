@@ -1,0 +1,9 @@
+Dataset,Graph Name,Prim Total Cost,Kruskal Total Cost,Prim Time (ms),Kruskal Time (ms),Prim Operations,Kruskal Operations,Equal Total Cost
+input_small.json,SmallGraph1,10,00,10,00,4,1,9,9,true
+input_small.json,SmallGraph2,11,00,11,00,0,0,11,11,true
+input_small.json,SmallGraph3,15,00,15,00,0,0,13,13,true
+input_medium.json,MediumGraph1,31,00,31,00,0,0,23,23,true
+input_medium.json,MediumGraph2,36,00,36,00,0,0,27,27,true
+input_large.json,LargeGraph1,65,00,65,00,0,0,60,60,true
+input_large.json,LargeGraph2,100,00,100,00,1,1,59,61,true
+input_extra_large.json,ExtraLargeGraph1,6631,00,6631,00,8,8,8931,8935,true
