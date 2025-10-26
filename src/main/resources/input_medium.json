@@ -1,0 +1,45 @@
+{
+  "graphs": [
+    {
+      "name": "MediumGraph1",
+      "vertices": ["A","B","C","D","E","F","G","H","I","J"],
+      "edges": [
+        {"from":"A","to":"B","weight":5},
+        {"from":"A","to":"C","weight":3},
+        {"from":"B","to":"D","weight":2},
+        {"from":"C","to":"E","weight":4},
+        {"from":"D","to":"E","weight":6},
+        {"from":"D","to":"F","weight":3},
+        {"from":"E","to":"G","weight":7},
+        {"from":"F","to":"G","weight":2},
+        {"from":"F","to":"H","weight":5},
+        {"from":"G","to":"I","weight":3},
+        {"from":"H","to":"I","weight":6},
+        {"from":"I","to":"J","weight":4},
+        {"from":"E","to":"H","weight":5},
+        {"from":"B","to":"G","weight":8}
+      ]
+    },
+    {
+      "name": "MediumGraph2",
+      "vertices": ["A","B","C","D","E","F","G","H","I","J","K","L"],
+      "edges": [
+        {"from":"A","to":"B","weight":1},
+        {"from":"A","to":"C","weight":4},
+        {"from":"B","to":"D","weight":2},
+        {"from":"C","to":"D","weight":5},
+        {"from":"C","to":"E","weight":3},
+        {"from":"D","to":"F","weight":6},
+        {"from":"E","to":"G","weight":4},
+        {"from":"F","to":"H","weight":2},
+        {"from":"G","to":"I","weight":7},
+        {"from":"H","to":"J","weight":3},
+        {"from":"I","to":"K","weight":2},
+        {"from":"J","to":"L","weight":5},
+        {"from":"K","to":"L","weight":4},
+        {"from":"E","to":"H","weight":6},
+        {"from":"B","to":"I","weight":8}
+      ]
+    }
+  ]
+}
