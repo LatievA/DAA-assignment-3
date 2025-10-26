@@ -1,4 +1,4 @@
-# 🧮 Minimum Spanning Tree Algorithms Analysis Report
+# Minimum Spanning Tree Algorithms Analysis Report
 
 **Date:** 2025-10-26
 
